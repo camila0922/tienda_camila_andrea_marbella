@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial=escale=1.0">
+        <title>TIENDA</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <h1>Tienda YvesSaintLaurent</h1>
+        <p>Esta tienda es de productos de maquillaje donde encontraras
+            variedad de articulos que contiene:bases de maquillaje,labiales,
+            sombras,rimel,rubores, delineadores y cuidado de la piel
+        </p>
+        <h2>Galeria de productos</h2>
+        <table border="1">
+            <tr>
+                <td><img src="IMAGEN/base.jpg" width="200" height="300"></td>
+                <td><img src="IMAGEN/labial.jpg" width="200" height="300"></td>
+                <td><img src="IMAGEN/sombras.jpg" width="200" height="300"></td>
+                <td><img src="IMAGEN/rimel.jpg" width="200" height="300"></td>
+                <td><img src="IMAGEN/rubor.jpg" width="200" height="300"></td>
+                <td><img src="IMAGEN/delineador.jpg" width="200" height="300"></td>
+                <td><img src="IMAGEN/cuidado de la piel.jpg" width="200" height="300"></td>
+            </tr>
+            <tr>
+                <td>$600</td>
+                <td>$300</td>
+                <td>$500</td>
+                <td>$200</td>
+                <td>$250</td>
+                <td>$170</td>
+                <td>$700</td>
+            </tr>
+        </table>
+        <h2>Comprar articulos</h2>
+        <p>Base<input type="number" id="numero1" placeholder="Cantidad"></p>
+        <p>Labial<input type="number" id="numero2" placeholder="Cantidad"</p>
+        <p>Sombras<input type="number" id="numero3" placeholder="Cantidad"></p>
+        <p>Rimel<input type="number" id="numero4" placeholder="Cantidad"></p>
+        <p>Rubor<input type="number" id="numero5" placeholder="Cantidad"></p>
+        <p>Delineador<input type="number" id="numero6" placeholder="Cantidad"></p>
+        <p>Cuidado de la piel<input type="number" id="numero7" placeholder="Cantidad"></p>
+        <button onclick="multiplicarsumar()">Comprar</button>
+        <p id="total">El total a pagar es:</p>
+
+        <script src="script.js"></script>
+    </body>
+</html>
